@@ -1,6 +1,6 @@
 {
   "name": "create-rich-email",
-  "version": "1.0.0",
+  "version": "1.1.0",
   "description": "一个富文本邮件模版的集成箱，可以很方便在自己项目中选取合适的邮件模版。",
   "bin": {
     "create-rich-email": "output.cjs"
@@ -10,8 +10,9 @@
     "template"
   ],
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1",
-    "prepare": "husky install"
+    "prepare": "husky install",
+    "build": "./scripts/build.mjs",
+    "format": "prettier . --write"
   },
   "repository": {
     "type": "git",
@@ -27,13 +28,19 @@
   "license": "MIT",
   "devDependencies": {
     "esbuild": "0.19.4",
+    "esbuild-plugin-license": "^1.2.2",
     "husky": "^8.0.0",
+    "kolorist": "^1.8.0",
     "lint-staged": "^14.0.1",
     "prettier": "3.0.3"
   },
   "lint-staged": {
-    "*.{js,md,ts,vue,json}": [
+    "*.{js,mjs,cjs,md,ts,vue,json}": [
       "prettier --write"
     ]
+  },
+  "dependencies": {
+    "minimist": "^1.2.8",
+    "prompts": "^2.4.2"
   }
 }
