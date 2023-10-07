@@ -31,7 +31,6 @@
     "esbuild": "0.19.4",
     "esbuild-plugin-license": "^1.2.2",
     "husky": "^8.0.0",
-    "kolorist": "^1.8.0",
     "lint-staged": "^14.0.1",
     "prettier": "3.0.3",
     "zx": "^7.2.3"
@@ -42,6 +41,7 @@
     ]
   },
   "dependencies": {
+    "kolorist": "^1.8.0",
     "minimist": "^1.2.8",
     "prompts": "^2.4.2"
   }
