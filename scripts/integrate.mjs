@@ -11,7 +11,7 @@ fs.ensureDirSync(root);
 cd(root);
 
 // Provide the template directory name that you want to integrate.
-const dir_flags = ["netease-edun", "netease-edun22"];
+const dir_flags = ["netease-edun", "tencent-cloud", "docker"];
 
 // Collect statistics on all directory names.
 console.log(cyan("Collect statistics on all directory names."));
