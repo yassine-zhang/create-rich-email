@@ -92,7 +92,7 @@ console.timeEnd(green("total"));
 console.log(
   cyan(
     gray("[") +
-      green("√") +
+      green("✔") +
       gray("]") +
       "The build script was successfully executed.",
   ),
