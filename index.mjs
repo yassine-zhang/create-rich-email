@@ -13,7 +13,10 @@ const argv = parseArgs(process.argv.slice(2));
 // Improve the return of calls with parameters.
 const stdin = process.stdin;
 // const version = readFileSync('./package.json').version;
-const version = "1.1.3";
+// const version = "1.1.3";
+const version = readJsonFileSync(
+  path.resolve(__dirname, "package.json"),
+).version;
 
 if (argv.help) {
   stdin.write("\n" + bold("Usgae:") + "\n");
@@ -147,5 +150,14 @@ function removeDirRecursive(dirPath) {
 
     // Delete empty directory.
     fs.rmdirSync(dirPath);
+  }
+}
+
+function readJsonFileSync(path) {
+  try {
+    const json_data = fs.readFileSync(path, "utf-8");
+    return JSON.parse(json_data);
+  } catch (error) {
+    console.error(`Failed to read ${path} file:`, error.message);
   }
 }
