@@ -13,7 +13,7 @@ const argv = parseArgs(process.argv.slice(2));
 // Improve the return of calls with parameters.
 const stdin = process.stdin;
 // const version = readFileSync('./package.json').version;
-const version = "1.1.0";
+const version = "1.1.1";
 
 if (argv.help) {
   stdin.write("\n" + bold("Usgae:") + "\n");
