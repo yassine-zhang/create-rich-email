@@ -13,7 +13,7 @@ const argv = parseArgs(process.argv.slice(2));
 // Improve the return of calls with parameters.
 const stdin = process.stdin;
 // const version = readFileSync('./package.json').version;
-const version = "1.1.2";
+const version = "1.1.3";
 
 if (argv.help) {
   stdin.write("\n" + bold("Usgae:") + "\n");
@@ -88,16 +88,24 @@ Object.keys(argv).length > 1 ? process.exit(0) : "";
     // Clear the directory or create one if no directory exists.
     emptyDirSync(path.resolve("./", res.dirname));
 
+    // Scripts that use the .mjs suffix are flags for the ES module.
+    // In ES modules, since the top-level scope of the module is automatically wrapped in functions,
+    // the __dirname variable is not supplied directly.
+
+    // You can use import.meta.url to get the URL of the current module file and process the URL to get the corresponding directory path.
+    // Given that an error will be reported whenever esbuild is used, we will keep it the same. Then execute the built.cjs file.
+    const template_root = path.resolve(__dirname, "template");
+
     // Provide the corresponding template according to the user's selection.
     const filenames = fs.readdirSync(
-      path.resolve("./template", res.template_name, "dist"),
+      path.resolve(template_root, res.template_name, "dist"),
     );
     fs.mkdirSync(path.resolve("./", res.dirname, res.template_name));
 
     // Copy all template dist folder data to the new directory in turn.
     for (let filename of filenames) {
       const buffer = fs.readFileSync(
-        path.resolve("./template", res.template_name, "dist", filename),
+        path.resolve(template_root, res.template_name, "dist", filename),
         "utf-8",
       );
 
