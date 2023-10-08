@@ -1,6 +1,6 @@
 {
   "name": "create-rich-email",
-  "version": "1.2.1",
+  "version": "1.2.2",
   "description": "一个富文本邮件模版的集成箱，可以很方便在自己项目中选取合适的邮件模版。",
   "bin": {
     "create-rich-email": "outfile.cjs"
