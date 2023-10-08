@@ -1,6 +1,6 @@
 {
   "name": "create-rich-email",
-  "version": "1.1.4",
+  "version": "1.2.0",
   "description": "一个富文本邮件模版的集成箱，可以很方便在自己项目中选取合适的邮件模版。",
   "bin": {
     "create-rich-email": "outfile.cjs"
@@ -33,16 +33,15 @@
     "husky": "^8.0.0",
     "lint-staged": "^14.0.1",
     "prettier": "3.0.3",
-    "zx": "^7.2.3"
+    "zx": "^7.2.3",
+    "kolorist": "^1.8.0",
+    "minimist": "^1.2.8",
+    "prompts": "^2.4.2"
   },
   "lint-staged": {
     "*.{js,mjs,cjs,md,json,css}": [
       "prettier --write"
     ]
   },
-  "dependencies": {
-    "kolorist": "^1.8.0",
-    "minimist": "^1.2.8",
-    "prompts": "^2.4.2"
-  }
+  "dependencies": {}
 }
