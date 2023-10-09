@@ -54,6 +54,41 @@ for await (let dir of dir_flags) {
     );
   }
 
+  // Gets the names of all externally referenced JS files.
+  console.log(cyan("Gets the names of all externally referenced JS files."));
+  const regex_js = /<script\b[^<]*(?:(?!<\/script>)<[^<]*)*<\/script>/gi;
+
+  const matches_js = [...index_html.matchAll(regex_js)];
+  for (const match of matches_js) {
+    // Single script tag.
+    const scriptContent = match[0];
+    // The regular matches the JS file names extracted from a single script tag.
+    console.log(
+      cyan(
+        "The regular matches the JS file names extracted from a single script tag.",
+      ),
+    );
+
+    const regex_js_filename =
+      /<script[^>]*\ssrc=("([^"]+)"|'([^']+)')[^>]*><\/script>/i;
+    let filename = scriptContent.match(regex_js_filename);
+    if (filename) {
+      filename = filename[2] || filename[3];
+    }
+
+    // Replace the JS into the HTML file.
+    console.log(cyan("Replace the JS into the HTML file."));
+    const jsfile_buffer = fs.readFileSync(filename, "utf-8");
+
+    // Note: Here the second argument of the replace function is a function.
+    // This is mainly done to resolve the existence of $& special characters in the JS file,
+    // so that the replace function does not mistakenly replace $& with a matching character.
+    index_html = index_html.replace(
+      scriptContent,
+      () => "<script>\n" + jsfile_buffer + "\n</script>",
+    );
+  }
+
   // Write back to the HTML file.
   console.log(cyan("Write back to the HTML file."));
   fs.ensureDirSync("dist", desire_mode);
