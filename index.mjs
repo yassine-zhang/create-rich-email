@@ -58,7 +58,7 @@ Object.keys(argv).length > 1 ? process.exit(0) : "";
         message: "Please select a mail template",
         choices: [
           { title: "netease-edun", description: "", value: "netease-edun" },
-          { title: "tencent-cloud", value: "tencent-cloud", disabled: true },
+          { title: "tencent-cloud", value: "tencent-cloud" },
           { title: "docker", value: "docker", disabled: true },
         ],
         // initial: 0

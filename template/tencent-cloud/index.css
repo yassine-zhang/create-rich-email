@@ -1,0 +1,49 @@
+/* common */
+.bold {
+  /* It can be changed to normal because the default font width is thin. */
+  font-weight: normal;
+}
+
+body {
+  padding: 45px;
+  padding-bottom: 0;
+}
+
+.container {
+  width: 660px;
+  background-color: #f7f8fa;
+  padding: 20px;
+  margin: 0 auto;
+}
+
+.container header {
+  margin-bottom: 15px;
+}
+
+.container main {
+  border-top: 2px solid #49a2f8;
+  background-color: #ffffff;
+  border-left: 1px solid #efecee;
+  border-right: 1px solid #efecee;
+  box-shadow: rgba(0, 0, 0, 0.18) 0px 1px 0px;
+  padding: 23px 20px 45px 20px;
+  font-weight: lighter;
+}
+
+.container main .info {
+  margin-bottom: 60px;
+}
+
+footer {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 20px;
+  color: #999999;
+  font-weight: 300;
+  font-size: 12px;
+}
+
+footer img {
+  margin: 20px 0;
+}
