@@ -102,3 +102,5 @@ for await (let dir of dir_flags) {
 // Execute the code formatting command.
 console.log(magenta("Execute the code formatting command."));
 await $`prettier . --write`;
+
+await $`npm run build`;
