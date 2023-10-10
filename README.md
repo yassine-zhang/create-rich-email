@@ -22,9 +22,7 @@ Note that the tag name (@latest or @legacy) MUST NOT be omitted, otherwise npm m
 
 Template path: `./template/...`
 
-- [netease-edun](./template/netease-edun/网易易盾.PNG)
-- [tencent-cloud](./template//tencent-cloud/腾讯云.PNG)
-- docker
+- [docker](./template/docker/Docker.PNG)
 - etc...
 
 ## LICENSE
