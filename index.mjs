@@ -59,7 +59,7 @@ Object.keys(argv).length > 1 ? process.exit(0) : "";
         choices: [
           { title: "netease-edun", description: "", value: "netease-edun" },
           { title: "tencent-cloud", value: "tencent-cloud" },
-          { title: "docker", value: "docker", disabled: true },
+          { title: "docker", value: "docker" },
         ],
         // initial: 0
         warn: "This option function is not yet developed, please wait.",

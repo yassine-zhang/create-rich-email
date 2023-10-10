@@ -1,0 +1,80 @@
+:root {
+  --n-margin-multiplier: 2;
+}
+
+.container {
+  width: 596px;
+  margin: 0 auto;
+  padding-bottom: 200px;
+  color: black;
+}
+
+.btn-blue {
+  padding: 8px 20px;
+  color: white;
+  font-weight: bold;
+  border: 0;
+  border-radius: 3px;
+  background-color: #3579f6;
+}
+
+.mt-1 {
+  margin-top: calc(1px * var(--n-margin-multiplier));
+}
+.mt-2 {
+  margin-top: calc(2px * var(--n-margin-multiplier));
+}
+.mt-3 {
+  margin-top: calc(3px * var(--n-margin-multiplier));
+}
+.mt-4 {
+  margin-top: calc(4px * var(--n-margin-multiplier));
+}
+.mt-5 {
+  margin-top: calc(5px * var(--n-margin-multiplier));
+}
+.mt-6 {
+  margin-top: calc(6px * var(--n-margin-multiplier));
+}
+
+button:hover {
+  cursor: pointer;
+}
+
+#top-menu .logo {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+  width: 205px;
+  height: 60px;
+}
+
+#top-menu .logo svg {
+  width: 150px;
+  fill: #1d63ed;
+}
+
+#main-area {
+  padding-bottom: 30px;
+}
+
+#main-area p {
+  margin: 12px 0;
+}
+
+#main-area h3 {
+  margin-top: 25px;
+  font-weight: bold;
+  line-height: 1;
+}
+
+#main-footer {
+  padding-top: 40px;
+  border-top: 2px solid #e7e8e9;
+  font-size: 10px;
+}
+
+#main-footer a {
+  font-size: 9px;
+  color: black;
+}

@@ -1,6 +1,6 @@
 {
   "name": "create-rich-email",
-  "version": "1.2.6",
+  "version": "1.2.7",
   "description": "A rich text mail template integration box, you can easily choose the right mail template in your own project.",
   "bin": {
     "create-rich-email": "outfile.cjs"
