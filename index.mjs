@@ -88,8 +88,9 @@ Object.keys(argv).length > 1 ? process.exit(0) : "";
 
   // Pull the template to the user local.
   const pull_template = (res) => {
-    // Clear the directory or create one if no directory exists.
-    emptyDirSync(path.resolve("./", res.dirname));
+    // Create one if no directory exists.
+    ensureDirSync(path.resolve("./", res.dirname));
+    emptyDirSync(path.resolve("./", res.dirname, res.template_name));
 
     // Scripts that use the .mjs suffix are flags for the ES module.
     // In ES modules, since the top-level scope of the module is automatically wrapped in functions,
@@ -103,7 +104,7 @@ Object.keys(argv).length > 1 ? process.exit(0) : "";
     const filenames = fs.readdirSync(
       path.resolve(template_root, res.template_name, "dist"),
     );
-    fs.mkdirSync(path.resolve("./", res.dirname, res.template_name));
+    // fs.mkdirSync(path.resolve("./", res.dirname, res.template_name));
 
     // Copy all template dist folder data to the new directory in turn.
     for (let filename of filenames) {
@@ -125,6 +126,11 @@ function isValidPackageName(projectName) {
   return /^(?:@[a-z0-9-*~][a-z0-9-*._~]*\/)?[a-z0-9-~][a-z0-9-._~]*$/.test(
     projectName,
   );
+}
+
+// ensure exists of the directory
+function ensureDirSync(dir) {
+  if (!fs.existsSync(dir)) fs.mkdirSync(dir);
 }
 
 // Clear the directory or create one if no directory exists.
