@@ -1,6 +1,6 @@
 {
   "name": "create-rich-email",
-  "version": "1.2.7",
+  "version": "1.3.0",
   "description": "A rich text mail template integration box, you can easily choose the right mail template in your own project.",
   "bin": {
     "create-rich-email": "outfile.cjs"
@@ -20,10 +20,11 @@
     "url": "https://github.com/yassine-zhang/create-rich-email.git"
   },
   "keywords": [
-    "rich",
-    "text",
+    "rich text",
     "email",
-    "template"
+    "template",
+    "compatibility",
+    "adaptive layout"
   ],
   "author": "Yassine-Zhang",
   "license": "MIT",

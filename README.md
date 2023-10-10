@@ -2,6 +2,10 @@
 
 It provides you with a variety of beautiful rich text mail templates that you can use in your project development with only a few simple modifications.
 
+Because of the poor style compatibility between different mail applications, the new features of CSS3 are almost unusable and various problems make the layout of mail sent to users very messy.
+
+<font color="#FF6666"><strong>However: any templates provided with this plug-in address this issue and you don't need to worry about it.</strong></font>
+
 <p align="center">
     <img width="500" src="./media/cli-demo.png">
 </p>

@@ -56,11 +56,7 @@ Object.keys(argv).length > 1 ? process.exit(0) : "";
         type: "select",
         name: "template_name",
         message: "Please select a mail template",
-        choices: [
-          { title: "netease-edun", description: "", value: "netease-edun" },
-          { title: "tencent-cloud", value: "tencent-cloud" },
-          { title: "docker", value: "docker" },
-        ],
+        choices: [{ title: "docker", value: "docker", description: "" }],
         // initial: 0
         warn: "This option function is not yet developed, please wait.",
       },
