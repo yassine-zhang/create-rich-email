@@ -55,8 +55,29 @@ Object.keys(argv).length > 1 ? process.exit(0) : "";
       {
         type: "select",
         name: "template_name",
-        message: "Please select a mail template",
-        choices: [{ title: "docker", value: "docker", description: "" }],
+        message: "Please select a email template",
+        choices: [
+          {
+            title: "docker",
+            value: "docker",
+            description: "This template does not have a minimized file.",
+          },
+          {
+            title: "[minify] apple-music",
+            value: "apple-music",
+            description: "",
+          },
+          {
+            title: "[minify] netease-edun",
+            value: "netease-edun",
+            description: "",
+          },
+          {
+            title: "[minify] tencent-cloud",
+            value: "tencent-cloud",
+            description: "",
+          },
+        ],
         // initial: 0
         warn: "This option function is not yet developed, please wait.",
       },
@@ -69,6 +90,13 @@ Object.keys(argv).length > 1 ? process.exit(0) : "";
           isValidPackageName(value)
             ? true
             : "Please enter a valid directory name format.",
+      },
+      {
+        type: "confirm",
+        name: "minify",
+        message:
+          "When selecting a template with the [minify] flag, do I want to download the minimized page?",
+        initial: true,
       },
     ];
     const onCancel = () => {
@@ -86,7 +114,7 @@ Object.keys(argv).length > 1 ? process.exit(0) : "";
   const pull_template = (res) => {
     // Create one if no directory exists.
     ensureDirSync(path.resolve("./", res.dirname));
-    emptyDirSync(path.resolve("./", res.dirname, res.template_name));
+    ensureDirSync(path.resolve("./", res.dirname, res.template_name));
 
     // Scripts that use the .mjs suffix are flags for the ES module.
     // In ES modules, since the top-level scope of the module is automatically wrapped in functions,
@@ -97,10 +125,32 @@ Object.keys(argv).length > 1 ? process.exit(0) : "";
     const template_root = path.resolve(__dirname, "template");
 
     // Provide the corresponding template according to the user's selection.
+
+    // Detects the presence of a template with the [minify] flag when the user agrees to download it.
+    if (res.minify) {
+      const minify_filename = "index.minify.html";
+      const exists_minify_file = fs.existsSync(
+        path.resolve(template_root, res.template_name, minify_filename),
+      );
+      if (exists_minify_file) {
+        const buffer = fs.readFileSync(
+          path.resolve(template_root, res.template_name, minify_filename),
+          "utf-8",
+        );
+
+        fs.writeFileSync(
+          path.resolve("./", res.dirname, res.template_name, minify_filename),
+          buffer,
+        );
+
+        // Exit the current function without continuing.
+        return;
+      }
+    }
+
     const filenames = fs.readdirSync(
       path.resolve(template_root, res.template_name, "dist"),
     );
-    // fs.mkdirSync(path.resolve("./", res.dirname, res.template_name));
 
     // Copy all template dist folder data to the new directory in turn.
     for (let filename of filenames) {
