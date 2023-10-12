@@ -23,7 +23,18 @@ Note that the tag name (@latest or @legacy) MUST NOT be omitted, otherwise npm m
 Template path: `./template/...`
 
 - [docker](./template/docker/Docker.PNG)
+- [minify] [apple-music](./template/apple-music/AppleMusic.PNG)
+- [minify] [netease-edun](./template/netease-edun/网易易盾.PNG)
+- [minify] [tencent-cloud](./template/tencent-cloud/腾讯云.PNG)
 - etc...
+
+Note: Templates with the [minify] flag contain minimal HTML files.
+
+## Thanks
+
+Thanks to the Mailjet team for providing me with a great markup language, MJML.
+
+> MJML is a markup language designed to reduce the pain of coding a responsive email. Its semantic syntax makes it easy and straightforward and its rich standard components library speeds up your development time and lightens your email codebase. MJML’s open-source engine generates high quality responsive HTML compliant with best practices.
 
 ## LICENSE
 

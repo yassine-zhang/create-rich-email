@@ -1,0 +1,90 @@
+<mjml>
+  <mj-head>
+
+    <mj-html-attributes>
+      <mj-html-attribute class="easy-email" multiple-attributes="false" attribute-name="text-color" text-color="#000000"></mj-html-attribute>
+      <mj-html-attribute class="easy-email" multiple-attributes="false" attribute-name="font-family" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen', 'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans','Helvetica Neue', sans-serif"></mj-html-attribute>
+      <mj-html-attribute class="easy-email" multiple-attributes="false" attribute-name="font-size" font-size="14px"></mj-html-attribute>
+      <mj-html-attribute class="easy-email" multiple-attributes="false" attribute-name="line-height" line-height="1.7"></mj-html-attribute>
+      <mj-html-attribute class="easy-email" multiple-attributes="false" attribute-name="font-weight" font-weight="400"></mj-html-attribute>
+      <mj-html-attribute class="easy-email" multiple-attributes="false" attribute-name="responsive" responsive="true"></mj-html-attribute>
+
+    </mj-html-attributes>
+
+    <mj-breakpoint width="480px" />
+
+    <mj-attributes>
+      <mj-text font-size="14px" />
+      <mj-text line-height="1.7" />
+      <mj-text font-weight="400" />
+      <mj-all font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen', 'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans','Helvetica Neue', sans-serif" />
+      <mj-text font-size="14px" />
+      <mj-text color="#000000" />
+      <mj-text line-height="1.7" />
+      <mj-text font-weight="400" />
+
+    </mj-attributes>
+  </mj-head>
+  <mj-body width="600px" background-color="#f5f5f7">
+    <mj-section padding="20px 30px 20px 30px" border="none" direction="ltr" text-align="center" background-repeat="repeat" background-size="auto" background-position="top center" background-color="#fff">
+      <mj-group vertical-align="top" direction="ltr">
+        <mj-column border="none" vertical-align="top" width="35%" padding="0px 0px 0px 0px">
+          <mj-image align="left" height="30px" src="https://static-its-images.apple.com/images/eds/wordmarks/white_container/2x/Music2x.png" width="100px" href="https://c.apple.com/r?v=2&a=LFGBuluglt%2BfjzVMkbjDFOMQauDFXZFToMjBUDeUl6yNEoj2AmRzIIqVbUGOHLo%2FAyee%2BQNoB%2Fvs7SbnolxnielRLqQic%2BfmSrvaz25%2BzVzqgg3%2FEyCLt1gHGZ6gM8IwosbE43ev6KgRsGgOEIqFx1Gy5djO3WHCVVUSyodBUdKpB%2FHARLKTMI5iPe%2F4cSCwPakiS2QoFCRuVPu3cSbcjWxrbp7WFYweofyQ1RH0JnDt1xj2IeY6d6fQi679axMeFk8adfosva4OIdnru6F6gcenB9JnFFOzn4ciMn%2FtTxdpAv5y27YxHDV9GIZnuVqV" padding="0px 0px 0px 0px"></mj-image>
+        </mj-column>
+        <mj-column border="none" vertical-align="middle" width="50%" padding="0px 0px 0px 0px">
+          <mj-text align="right" font-size="12px" font-style="normal" height="30px" line-height="30px" padding="0px 5px 0px 0px">立即聆听，就在</mj-text>
+        </mj-column>
+        <mj-column border="none" vertical-align="top" width="15%" padding="0px 0px 0px 0px">
+          <mj-image align="right" height="30px" src="https://static-its-images.apple.com/images/eds/chiclets/Desktop40px/2x/Music_2x-desktop.png" width="30px" href="https://c.apple.com/r?v=2&a=LFGBuluglt%2BfjzVMkbjDFOMQauDFXZFToMjBUDeUl6yNEoj2AmRzIIqVbUGOHLo%2FAyee%2BQNoB%2Fvs7SbnolxnielRLqQic%2BfmSrvaz25%2BzVzqgg3%2FEyCLt1gHGZ6gM8IwosbE43ev6KgRsGgOEIqFx1Gy5djO3WHCVVUSyodBUdKpB%2FHARLKTMI5iPe%2F4cSCwPakiS2QoFCRuVPu3cSbcjWxrbp7WFYweofyQ1RH0JnDt1xj2IeY6d6fQi679axMeFk8adfosva4OIdnru6F6gcenB9JnFFOzn4ciMn%2FtTxdpAv5y27YxHDV9GIZnuVqV" padding="0px 0px 0px 0px"></mj-image>
+        </mj-column>
+      </mj-group>
+    </mj-section>
+    <mj-section background-repeat="repeat" background-size="auto" background-position="top center" border="none" direction="ltr" text-align="center" padding="0px 0px 0px 0px">
+      <mj-column border="none" vertical-align="top" width="100%" padding="0px 0px 0px 0px">
+        <mj-image align="center" height="auto" src="https://is5-ssl.mzstatic.com/image/thumb/dyeGt40QwYxRPoj12jsyfg/1428x828bb-90.jpg" href="https://c.apple.com/r?v=2&a=LFGBuluglt%2BfjzVMkbjDFOMQauDFXZFToMjBUDeUl6xqWX4CzAJE7FxxZJCEygzoKTERAgbWICW%2Bnox71Y9b20TpjccSP7P3W%2FqoVi10eWE%2FGHJdQ5UaIEnfXkfXi8skM19xRg7zZDtWaWwOeWPrg1PEkRIDQrUtckR%2BUK83I07nTdDNsCuX%2FjmleOi9pOuNbYtP2gtwGAPDaeeHfyhDdxqrHJVp1tPx9uu7T8okkEgsUf4nz89K4ssXCWvCx5Z3O9SzACELhExEz2bfvsm%2Bjl7wsCidD3IQuHWjvtYkZS82lVPlepOF5i2I3%2FFVz31L" padding="0px 0px 0px 0px"></mj-image>
+      </mj-column>
+    </mj-section>
+    <mj-section background-repeat="repeat" background-size="auto" background-position="top center" border="none" direction="ltr" text-align="center" background-color="#fff" padding="20px 0px 20px 0px">
+      <mj-column border="none" vertical-align="top" width="100%" padding="0px 0px 0px 0px">
+        <mj-text align="center" font-weight="bold" font-size="28px" padding="10px 25px 10px 25px">领取 Apple Music 3 个月免费会员</mj-text>
+      </mj-column>
+      <mj-column border="none" vertical-align="top" width="80%" padding="0px 20px 0px 20px">
+        <mj-text align="left" font-size="12px" padding="10px 25px 10px 25px">身为 iCloud+ 订阅用户的你可以免费享受 Apple Music 的全部功能，时间长达 3 个月。1 立即加入，畅听数千万首歌曲及近万个歌单，绝无广告打扰。还可通过空间音频沉浸式感受环绕入耳的好声音。2 无需合约，即可享受以上所有服务。</mj-text>
+        <mj-button align="center" background-color="#e63e44" color="#ffffff" font-weight="normal" border-radius="20px" line-height="120%" target="_blank" vertical-align="middle" border="none" text-align="center" href="https://c.apple.com/r?v=2&a=LFGBuluglt%2BfjzVMkbjDFOMQauDFXZFToMjBUDeUl6xqWX4CzAJE7FxxZJCEygzovzp1xkIhZg5zU4hFELc95eFzBCWvBJRUBCDnIijvqjvmv5%2Ba%2FjWWdiDrw4bYHV5o55c%2FjeEbzjcAg99e1cv1efCv0BugTofpACHfnqaqFPfTqRqVlYD9zX%2BDqT41womJmnF3vIkMk2g%2BbPYD2KA57ml9ZFip1upFi5qWQtWc5tHvjjVmoTP30tpkRSMzV8L75IT%2B4qh%2FfXSIx9kHCDBqkpvHtmryFserevDCcY5yz53s%2BAIOLLvEqskBSbuJyyq1" font-size="12px" padding="10px 25px 10px 25px">获取三个月免费会员</mj-button>
+      </mj-column>
+    </mj-section>
+    <mj-section background-repeat="repeat" background-size="auto" background-position="top center" border="none" direction="ltr" text-align="center" padding="10px 0px 20px 0px" background-color="#f5f5f7">
+      <mj-column border="none" vertical-align="top" width="100%" padding="0px 0px 0px 0px">
+        <mj-text align="left" font-size="10px" color="#333" padding="10px 25px 5px 25px">1. 活动仅限新订阅用户。须通过 iPhone、iPad 或 Mac 兑换。试用期结束后，订阅方案将以 ¥10/月自动续订，直至取消。 <a href="https://www.apple.com.cn/promo/" target="_blank" style="color: inherit; text-decoration: underline;">适用条款</a>。</mj-text>
+        <mj-text align="left" font-size="10px" color="#333" padding="5px 25px 5px 25px">2. 并非所有内容都支持杜比全景声。开启杜比全景声功能需要使用支持杜比全景声的设备。播放质量将视硬件、音频配件和互联网连接状况而定。</mj-text>
+        <mj-text align="left" font-size="10px" color="#333" padding="5px 25px 5px 25px">需要互联网连接；可能会收取数据流量费用。内容价格及供应情况可能会发生变化。成为会员即能使用 Apple Music，服务仅在部分国家/地区提供。</mj-text>
+        <mj-text align="left" font-size="10px" color="#333" padding="5px 25px 5px 25px">版权所有 © 2023 Apple Distribution International Ltd., Hollyhill Industrial Estate, Hollyhill, Cork, Republic of Ireland</mj-text>
+      </mj-column>
+      <mj-column border="none" vertical-align="top" width="100%" padding="0px 0px 0px 0px">
+        <mj-navbar align="center">
+          <mj-navbar-link color="#424245" font-size="10px" target="_blank" href="https://c.apple.com/r?v=2&a=LFGBuluglt%2BfjzVMkbjDFOMQauDFXZFToMjBUDeUl6xZWNjhzOd5LR49I5JFw6L7Sxs59ePHdoDh37PZhbEh1CJ56Q8Ws3WN2wkZeuKfIxmrWSqBFF0Y1cuQNaeZG0kOMT2PFEC%2Fy%2FHySCfivJZejwchKGu8PPkNyy3scDdMpjV6dnsCFSEGPNX%2Fl8cnMjJGex8wUnWWCcIu4GIMXOoa74qb3EmAQ0EZwaCjy%2FVsi41gU5Ut2sj%2Bhrfn8CPYgdFVQzcKaGrKjy9XnwdbRfjsFapgeXGHFzhQ3o342vYQR5xRjz%2Fpjem%2FI326gIh0DOsuNntyEWsh7pzXq%2F1sOxj%2FSA%3D%3D" padding="0">隐私政策</mj-navbar-link>
+
+          <mj-navbar-link color="#424245" font-size="10px" target="_self" padding="0px 0px 0px 0px">｜</mj-navbar-link>
+
+          <mj-navbar-link color="#424245" font-size="10px" target="_blank" href="https://c.apple.com/r?v=2&a=LFGBuluglt%2BfjzVMkbjDFOMQauDFXZFToMjBUDeUl6y%2FoRh4NUto1FcHaorzQ7PqnEj0CQSPGoKREwqmZ9t%2F1blQS143WFhketvWi92yh4IsjyajbZkVwHH%2Bj6z%2FPANWqK3v9xq%2FzX799fb6%2BgxsSHGd0ECF6jHrfIcNKzLhFrYKSzOD4lySyqAEQE%2Fmr8LlFuY%2B6ernk0cp9R3c63rZ0116nlADsWj1damMFTFlfK42VSYzsHocDUDxhQSIOfg5JHWrciadscb7pKJg47rf%2BBoKP8z3dT293cMty6Hhps1N%2BwIvSXgs0yiRTlz88Ps%2BmRCHhWofeommRYAiSqkIHe6Qdfg0mkvu8t6dpxxzzLbl0fhJm5fyDVq5V1e1jt6I" padding="0px 0px 0px 0px">条款和条件</mj-navbar-link>
+
+          <mj-navbar-link color="#424245" font-size="10px" target="_self" padding="0px 0px 0px 0px">｜</mj-navbar-link>
+
+          <mj-navbar-link color="#424245" font-size="10px" target="_blank" href="https://c.apple.com/r?v=2&a=LFGBuluglt%2BfjzVMkbjDFOMQauDFXZFToMjBUDeUl6xUBDpXYMlA0Myv%2BkJ%2BBTgjljJ%2FUta%2FTx8zTUX%2BQssHvRdDxYpqn9TBCADUkloV2lNIy6IUpROdXk0XVAHxITvEjFDiCFj5nfsjb4jc1g76BhKUl0rdaeBOaAGMXkjILyrqBDxDdGS9yQt0De2zC%2FoZZk1yLpxPRXs52txWKeAb5BSlDniWasz9RXHRn4n4zfAfkvwBg5mwS4wtv2wCLrLlfYSni2D%2B%2Fo8fv0YqlFeUFSofj7bvgJbvrp9B5LegrrER2xZXmpXoZsJWwjgSB1VsIiK%2Bm3kv50U0dUkgmHXrYA%3D%3D" padding="0px 0px 0px 0px">技术支持</mj-navbar-link>
+
+          <mj-navbar-link color="#424245" font-size="10px" target="_self" padding="0px 0px 0px 0px">｜</mj-navbar-link>
+
+          <mj-navbar-link color="#424245" font-size="10px" target="_blank" href="https://c.apple.com/r?v=2&a=LFGBuluglt%2BfjzVMkbjDFOMQauDFXZFToMjBUDeUl6xztJw7XNic7DfFkBqOeYtdaEeb4vCKE2%2B6FahH8HNSKZiKspWadcD7b%2B35gOWMdF%2BnVqNDLG9GSMHy3vqnbdrFxumQqAwidkx0TG0IzOXBHLM%2Fs1SDAEpAQK6Py2n6ItZb%2FtCFAU3Zm28FJ5vOvUMEefdiP%2BGSfQVxLp33Nevtnc9rpnPxHym8kJRxVHagyx0ZsyG5Neecvu4S6Nwr8%2FRMDcu9DnbBhKdvL1rpC7sXy3oJ9TVWo5CaLH3c%2B2i5y2vdu%2Fgnql5z2sw6Dc2Ejxc%2BzZj6yLp75nfY%2FzoVZ8tLFNuFJklC5toPyF0r%2Blzafbjv7gadwZdl90olfq1MK52wHjTUK0MQu0ksiAX0uc0SAdyMQE2%2F2Tg2nSebc4wVlmg%3D" padding="0px 0px 0px 0px">账户</mj-navbar-link>
+
+          <mj-navbar-link color="#424245" font-size="10px" target="_blank" padding="0px 0px 0px 0px">｜</mj-navbar-link>
+
+          <mj-navbar-link color="#424245" font-size="10px" target="_blank" href="https://c.apple.com/r?v=2&a=LFGBuluglt%2BfjzVMkbjDFOMQauDFXZFToMjBUDeUl6w5vWl873cuCPtBINafqtfF3xwsQe0Mp9b4CfIx7zNCFbizKIyI%2FuFBYyE%2FPK4NaRoSfNV8Z70HIeddV6AtVFoPlDXwyW1NZQqwVJsIsjZFRJdUEUBRANSzQSkMhh4Ij2Z9qirhz0YHizPEBu1aou9wEYzHGcmOEJDNWLhtpfBXdVh5AW67%2FidS%2Bvs3AZf%2BpyTvdF%2BWREFQ6qHRn68TpoBwY1UhxMcZJ9smyDlCw2SEbebCgxV2kJXyBuvedd11pdvTG2Q0T0SC2Gm0iSyIvIqw" padding="0px 0px 0px 0px">订阅</mj-navbar-link>
+
+          <mj-navbar-link color="#424245" font-size="10px" target="_blank" padding="0px 0px 0px 0px">｜</mj-navbar-link>
+
+          <mj-navbar-link color="#424245" font-size="10px" target="_blank" href="https://c.apple.com/r?v=2&a=8ps6Ok0qKWiF37xoxStPOmTNGs51zlivdjtcXTFjpLnVfNVUW3O2%2Fg0FsgBl8SdvTx20IK997Wb6cow2ElFVnbmjlO6IebozC9GuaqgxCEnjWyB0eZeD%2B%2BanZmITtVmvpk%2FcbSmnBPAPnOcuNbDzNt5XSNMbbgpTbQZrxmo6f6vJKpppFmIlZwgWOFR6fcxFaoxx8if77EIZzKUQ8cpH%2FLsExWJGWz2P8dHTk3HnGaSb8di089jBRFQLr49h3AdeMDU0zXddupNQ9G0lXsJgQepyXLGWz3Mca4pVe03ONBrr5rnet2vvPd8kc2Hibx7xutnPZnrV4kLYdBOLXT%2Fo3ELQfTxLsru4We40fLUou9NVQTz7eQXa1GHTnRJfX1cF%2BTuFFEVrKBOFJ88BaVc2%2FLsK%2FeuofVZJP%2BkwuEtFlXyXcz98qu787Hgw9lwelUFGhSFH3CBg26NPRcE9%2BCV4IvH02NRzO0d%2BhDcCG%2BiYV73E4CcDFuMw9%2FTdQQbHXnyat9hf3ibUVcy7R%2BCEWcfXuQ%3D%3D" padding="0px 0px 0px 0px">取消订阅</mj-navbar-link>
+        </mj-navbar>
+      </mj-column>
+    </mj-section>
+  </mj-body>
+</mjml>

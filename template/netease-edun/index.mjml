@@ -1,0 +1,76 @@
+<mjml>
+  <mj-head>
+
+    <mj-html-attributes>
+      <mj-html-attribute class="easy-email" multiple-attributes="false" attribute-name="text-color" text-color="#000000"></mj-html-attribute>
+      <mj-html-attribute class="easy-email" multiple-attributes="false" attribute-name="font-family" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen', 'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans','Helvetica Neue', sans-serif"></mj-html-attribute>
+      <mj-html-attribute class="easy-email" multiple-attributes="false" attribute-name="font-size" font-size="14px"></mj-html-attribute>
+      <mj-html-attribute class="easy-email" multiple-attributes="false" attribute-name="line-height" line-height="1.7"></mj-html-attribute>
+      <mj-html-attribute class="easy-email" multiple-attributes="false" attribute-name="font-weight" font-weight="400"></mj-html-attribute>
+      <mj-html-attribute class="easy-email" multiple-attributes="false" attribute-name="responsive" responsive="true"></mj-html-attribute>
+
+    </mj-html-attributes>
+
+    <mj-breakpoint width="480px" />
+
+    <mj-attributes>
+      <mj-text font-size="14px" />
+      <mj-text line-height="1.7" />
+      <mj-text font-weight="400" />
+      <mj-all font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen', 'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans','Helvetica Neue', sans-serif" />
+      <mj-text font-size="14px" />
+      <mj-text color="#000000" />
+      <mj-text line-height="1.7" />
+      <mj-text font-weight="400" />
+
+    </mj-attributes>
+  </mj-head>
+  <mj-body background-color="#ffffff" width="600px">
+    <mj-section padding="0px 0px 20px 0px" border="none" direction="ltr" text-align="center" background-repeat="repeat" background-size="auto" background-position="top center">
+      <mj-column border="none" vertical-align="top" width="100%" padding="0px 0px 0px 0px">
+        <mj-image align="center" height="auto" src="https://nos.netease.com/cloud-website-bucket/757b5aa2455b4219a3bdc5c293eb2666.png" padding="0px 0px 0px 0px"></mj-image>
+      </mj-column>
+      <mj-column border="none" vertical-align="top" width="100%" padding="10px 25px 10px 25px">
+        <mj-text align="left" font-size="10px" padding="0px 0px 0px 0px">尊敬的易盾用户，</mj-text>
+        <mj-spacer height="20px" padding="0px 0px 0px 0px"></mj-spacer>
+        <mj-text align="left" font-size="10px" line-height="2.0" padding="0px 0px 0px 0px">恭喜您注册成功，欢迎您使用网易易盾云安全服务！</mj-text>
+        <mj-text align="left" font-size="10px" line-height="2" padding="0px 0px 0px 0px">接下来您只需要 <a href="https://dun.163.com/dashboard" target="_blank" style="color: inherit; text-decoration: underline;">创建产品</a>，获取APP KEY，即可享受免费的试用体验了。</mj-text>
+        <mj-text align="left" font-size="10px" line-height="2" padding="0px 0px 0px 0px">快来开启易盾云安全之旅吧。</mj-text>
+        <mj-spacer height="20px" padding="0px 0px 0px 0px"></mj-spacer>
+        <mj-text align="left" font-size="10px" line-height="2" padding="0px 0px 0px 0px">在您接入测试的过程中遇到任何问题，均可通过以下途径找到答案：</mj-text>
+        <mj-text align="left" font-size="10px" line-height="2" padding="0px 0px 0px 0px">1.查看接入流程、咨询技术问题，进入<a href="https://support.dun.163.com/" target="_blank" style="color: inherit; text-decoration: underline;">帮助中心</a></mj-text>
+        <mj-text align="left" font-size="10px" line-height="2" padding="0px 0px 0px 0px">2.快速问题响应，专属客服人员一对一解答，<a href="https://dun.163.com/dashboard#/m/work/create/" target="_blank" style="color: inherit; text-decoration: underline;">工单系统</a>为您排忧解难</mj-text>
+        <mj-text align="left" font-size="10px" line-height="2" padding="0px 0px 20px 0px">3.我不是技术、或有其他问题，需要直接<a href="https://dun.163.com/kefu" target="_blank" style="color: inherit; text-decoration: underline;">联系商务</a></mj-text>
+        <mj-text align="left" font-size="10px" line-height="2" padding="0px 0px 0px 0px">再次感谢您的信任与支持，网易易盾将为您的业务安全保驾护航。</mj-text>
+        <mj-spacer height="40px" padding="0px 0px 0px 0px"></mj-spacer>
+        <mj-text align="left" font-size="10px" line-height="2" font-weight="bold" padding="0px 0px 0px 0px">网易易盾团队</mj-text>
+        <mj-divider align="center" border-width="1px" border-style="dashed" border-color="#C9CCCF" padding="0px 0px 0px 0px"></mj-divider>
+        <mj-text align="left" font-size="10px" line-height="2" padding="0px 0px 0px 0px">此为系统邮件请勿回复</mj-text>
+      </mj-column>
+    </mj-section>
+    <mj-section background-repeat="repeat" background-size="auto" background-position="top center" border="none" direction="ltr" text-align="center" background-color="#f5f6fa" padding="20px 20px 20px 20px">
+      <mj-group vertical-align="top" direction="ltr">
+        <mj-column border="none" vertical-align="top" width="33.33%" padding="0px 0px 0px 0px">
+          <mj-text align="left" font-size="10px" padding="0px 0px 0px 0px">联系我们</mj-text>
+          <mj-spacer height="4px" padding="0px 0px 0px 0px"></mj-spacer>
+          <mj-text align="left" font-size="8px" line-height="2" padding="0px 0px 0px 0px">电话咨询：95163223</mj-text>
+          <mj-text align="left" font-size="8px" line-height="2" padding="0px 0px 0px 0px">邮箱咨询：<a href="antispam@188.com" target="_blank" style="color: inherit; text-decoration: underline;">antispam@188.com</a></mj-text>
+          <mj-text align="left" font-size="8px" line-height="2" padding="0px 0px 0px 0px">联系地址：杭州市滨江区网商路599号网易大厦</mj-text>
+        </mj-column>
+        <mj-column border="none" vertical-align="top" width="33.33%" padding="0px 0px 0px 0px">
+          <mj-text align="left" font-size="10px" padding="0px 0px 0px 0px">联系我们</mj-text>
+          <mj-spacer height="4px" padding="0px 0px 0px 0px"></mj-spacer>
+          <mj-text align="left" font-size="8px" line-height="2" padding="0px 0px 0px 0px"><a href="http://dun.163.com" target="_blank" style="color: inherit; text-decoration: underline;">http://dun.163.com</a></mj-text>
+          <mj-spacer height="10px" padding="0px 0px 0px 0px"></mj-spacer>
+          <mj-text align="left" font-size="10px" line-height="1" padding="0px 0px 0px 0px">管理中心</mj-text>
+          <mj-spacer height="4px" padding="0px 0px 0px 0px"></mj-spacer>
+          <mj-text align="left" font-size="8px" line-height="2" padding="0px 0px 0px 0px"><a href="http://dun.163.com/dashboard" target="_blank" style="color: inherit; text-decoration: underline;">http://dun.163.com/dashboard</a></mj-text>
+        </mj-column>
+        <mj-column border="none" vertical-align="middle" width="33.33%" padding="0px 0px 0px 0px">
+          <mj-text align="center" font-size="8px" line-height="2" padding="0px 0px 0px 0px">关注易盾微信</mj-text>
+          <mj-image align="center" height="auto" src="https://nos.netease.com/cloud-website-bucket/f16257a2dbeb7bc71ac000c61c42c5fa.png" width="60px" padding="0px 0px 0px 0px"></mj-image>
+        </mj-column>
+      </mj-group>
+    </mj-section>
+  </mj-body>
+</mjml>

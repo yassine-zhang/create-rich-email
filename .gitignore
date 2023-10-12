@@ -2,6 +2,8 @@ outfile.cjs
 
 TODOs
 
+.DS_Store
+
 # Logs
 logs
 *.log

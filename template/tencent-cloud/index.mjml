@@ -1,0 +1,46 @@
+<mjml>
+  <mj-head>
+
+    <mj-html-attributes>
+      <mj-html-attribute class="easy-email" multiple-attributes="false" attribute-name="text-color" text-color="#000000"></mj-html-attribute>
+      <mj-html-attribute class="easy-email" multiple-attributes="false" attribute-name="font-family" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen', 'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans','Helvetica Neue', sans-serif"></mj-html-attribute>
+      <mj-html-attribute class="easy-email" multiple-attributes="false" attribute-name="font-size" font-size="14px"></mj-html-attribute>
+      <mj-html-attribute class="easy-email" multiple-attributes="false" attribute-name="line-height" line-height="1.7"></mj-html-attribute>
+      <mj-html-attribute class="easy-email" multiple-attributes="false" attribute-name="font-weight" font-weight="400"></mj-html-attribute>
+      <mj-html-attribute class="easy-email" multiple-attributes="false" attribute-name="responsive" responsive="true"></mj-html-attribute>
+
+    </mj-html-attributes>
+
+    <mj-breakpoint width="480px" />
+
+    <mj-attributes>
+      <mj-text font-size="14px" />
+      <mj-text line-height="1.7" />
+      <mj-text font-weight="400" />
+      <mj-all font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen', 'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans','Helvetica Neue', sans-serif" />
+      <mj-text font-size="14px" />
+      <mj-text color="#000000" />
+      <mj-text line-height="1.7" />
+      <mj-text font-weight="400" />
+
+    </mj-attributes>
+  </mj-head>
+  <mj-body background-color="#ffffff" width="600px">
+    <mj-section padding="20px 20px 50px 20px" border="none" direction="ltr" text-align="center" background-repeat="repeat" background-size="auto" background-position="top center" background-color="#f7f8fa">
+      <mj-column border="none" vertical-align="top" width="100%" padding="0px 0px 5px 0px">
+        <mj-image align="left" height="auto" src="https://imgcache.qq.com/open_proj/proj_qcloud_v2/mc_2014/cdn/css/img/mail/logo-pc.png" width="90px" href="https://cloud.tencent.com/" padding="10px 25px 10px 0px"></mj-image>
+      </mj-column>
+      <mj-column border="1px solid #e5dedf" vertical-align="top" background-color="#fff" width="100%" border-top="2px solid #49a2f8" padding="20px 20px 35px 20px">
+        <mj-text align="left" line-height="1.4" letter-spacing="1.2px" font-weight="300" padding="0px 0px 40px 0px">验证码：936135，该验证码5分钟内有效。为了保障您的账户安全，请勿向他人泄漏验证码信息。</mj-text>
+        <mj-text align="left" line-height="1.4" font-weight="300" padding="0px 0px 0px 0px">此致</mj-text>
+        <mj-text align="left" line-height="1.4" font-weight="500" padding="0px 0px 0px 0px">腾讯云团队</mj-text>
+      </mj-column>
+      <mj-column border="none" vertical-align="top" width="100%" padding="0px 0px 0px 0px">
+        <mj-text align="center" color="#a0a0a0" font-size="12px" font-weight="300" padding="10px 25px 10px 25px">此为系统邮件，请勿回复</mj-text>
+        <mj-image align="center" height="58px" src="https://imgcache.qq.com/open_proj/proj_qcloud_v2/tools/edm/css/img/wechat-qrcode-2x.jpg" width="58px" padding="0px 0px 0px 0px"></mj-image>
+        <mj-text align="center" color="#a0a0a0" font-size="12px" font-weight="300" padding="10px 25px 10px 25px">关注服务号，移动管理云资源</mj-text>
+        <mj-image align="center" height="58px" src="https://imgcache.qq.com/open_proj/proj_qcloud_v2/gateway/mail/cr.svg" width="220px" padding="0px 0px 0px 0px"></mj-image>
+      </mj-column>
+    </mj-section>
+  </mj-body>
+</mjml>
