@@ -11,7 +11,7 @@ fs.ensureDirSync(root);
 cd(root);
 
 // Provide the template directory name that you want to integrate.
-const dir_flags = ["docker"];
+const dir_flags = ["docker", "netease-edun", "tencent-cloud", "apple-music"];
 
 // Collect statistics on all directory names.
 console.log(cyan("Collect statistics on all directory names."));
@@ -101,6 +101,5 @@ for await (let dir of dir_flags) {
 
 // Execute the code formatting command.
 console.log(magenta("Execute the code formatting command."));
-await $`prettier . --write`;
 
 await $`npm run build`;
