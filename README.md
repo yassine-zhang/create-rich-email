@@ -7,7 +7,7 @@ Because of the poor style compatibility between different mail applications, the
 <font color="#FF6666"><strong>However: any templates provided with this plug-in address this issue and you don't need to worry about it.</strong></font>
 
 <p align="center">
-    <img width="500" src="./media/cli-demo.png">
+    <img width="500" src="./media/cli-demo.gif">
 </p>
 
 ## Install
@@ -21,6 +21,10 @@ Note that the tag name (@latest or @legacy) MUST NOT be omitted, otherwise npm m
 ## Template Preview
 
 Template path: `./template/...`
+
+<p align="center">
+    <img width="500" src="./media/preview.png">
+</p>
 
 - [docker](./template/docker/Docker.PNG)
 - [minify] [apple-music](./template/apple-music/AppleMusic.PNG)
