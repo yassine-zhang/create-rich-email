@@ -1,4 +1,4 @@
-## create-rich-email <a href="https://npmjs.com/package/create-rich-email"><img src="https://badgen.net/npm/v/create-rich-email/latest" alt="npm package"></a> <a href="https://github.com/yassine-zhang/create-rich-email/blob/main/LICENSE"><img src="https://badgen.net/static/license/MIT/orange" alt="license"></a>
+## create-rich-email <a href="https://npmjs.com/package/create-rich-email"><img src="https://badgen.net/npm/v/create-rich-email/latest" alt="npm package"></a> <a href="https://github.com/yassine-zhang/create-rich-email/blob/main/LICENSE"><img src="https://badgen.net/static/license/MIT/orange" alt="license"></a> <a href="https://npmjs.com/package/create-rich-email"><img src="https://badgen.net/npm/dw/create-rich-email" alt="downloads-w"/></a>
 
 It provides you with a variety of beautiful rich text mail templates that you can use in your project development with only a few simple modifications.
 
