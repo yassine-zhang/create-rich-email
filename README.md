@@ -1,26 +1,31 @@
 ## create-rich-email <a href="https://npmjs.com/package/create-rich-email"><img src="https://badgen.net/npm/v/create-rich-email/latest" alt="npm package"></a> <a href="https://github.com/yassine-zhang/create-rich-email/blob/main/LICENSE"><img src="https://badgen.net/static/license/MIT/orange" alt="license"></a> <a href="https://npmjs.com/package/create-rich-email"><img src="https://badgen.net/npm/dw/create-rich-email" alt="downloads-w"/></a>
 
-It provides you with a variety of beautiful rich text mail templates that you can use in your project development with only a few simple modifications.
+它为您提供了各种漂亮的富文本邮件模板，您只需进行一些简单的修改就可以在项目开发中使用这些模板。
 
-Because of the poor style compatibility between different mail applications, the new features of CSS3 are almost unusable and various problems make the layout of mail sent to users very messy.
+由于不同邮件应用程序之间的风格兼容性差，CSS3的新特性几乎无法使用，各种问题使得发送给用户的邮件布局非常混乱。
 
-<font color="#FF6666"><strong>However: any templates provided with this plug-in address this issue and you don't need to worry about it.</strong></font>
+<font color="#FF6666"><strong>但是:这个插件提供的任何模板都可以解决这个问题，您不需要担心它。</strong></font>
 
 <p align="center">
     <img width="500" src="./media/cli-demo.gif">
 </p>
 
-## Install
+## 多语言文档
+
+- [中文文档](./README.md)
+- [English Docs](./docs/readme-en.md)
+
+## 安装
 
 ```shell
 npm create rich-email@latest
 ```
 
-Note that the tag name (@latest or @legacy) MUST NOT be omitted, otherwise npm may resolve to a cached and outdated version of the package.
+注意，标签名(@latest或@legacy)绝对不能被省略，否则npm可能会解析到一个缓存的和过时的包版本。
 
-## Template Preview
+## 模版预览
 
-Template path: `./template/...`
+模版路径：`./template/...`
 
 <p align="center">
     <img width="500" src="./media/preview.png">
@@ -32,14 +37,14 @@ Template path: `./template/...`
 - [minify] [tencent-cloud](./template/tencent-cloud/腾讯云.PNG)
 - etc...
 
-Note: Templates with the [minify] flag contain minimal HTML files.
+注意:带有[minify]标志的模板包含最小的HTML文件。
 
-## Thanks
+## 致谢
 
-Thanks to the Mailjet team for providing me with a great markup language, MJML.
+感谢Mailjet团队为我提供了一种很棒的标记语言MJML。
 
-> MJML is a markup language designed to reduce the pain of coding a responsive email. Its semantic syntax makes it easy and straightforward and its rich standard components library speeds up your development time and lightens your email codebase. MJML’s open-source engine generates high quality responsive HTML compliant with best practices.
+> MJML是一种标记语言，旨在减少编写响应式电子邮件的痛苦。它的语义语法使其简单明了，其丰富的标准组件库加快了您的开发时间并减轻了您的电子邮件代码库。MJML的开源引擎生成符合最佳实践的高质量响应式HTML。
 
-## LICENSE
+## 许可证
 
-Use [MIT](./LICENSE) license.
+使用 [MIT](./LICENSE) 许可证.
